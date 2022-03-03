@@ -1,0 +1,20 @@
+{
+  "name": "experiencias",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon dist/index.js",
+    "compile":"tsc",
+    "start-server": "npm run compile && npm run start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.21",
+    "express": "^4.17.3",
+    "typescript": "^4.6.2"
+  }
+}
